@@ -24,4 +24,4 @@ yarn install
 yarn serve
 ```
 
-Now go to [http://localhost:8080](http://localhost:8080)
+Now go to [https://annotator.test2.alifdev.uz](https://annotator.test2.alifdev.uz)
