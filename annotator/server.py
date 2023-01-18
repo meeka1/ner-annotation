@@ -7,7 +7,6 @@ from nltk.tokenize.treebank import TreebankWordTokenizer, TreebankWordDetokenize
 
 app = Flask(__name__)
 
-
 @app.route("/tokenize", methods=["POST"])
 @cross_origin()
 def tokenize():

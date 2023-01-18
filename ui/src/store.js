@@ -4,10 +4,19 @@ const niceColors = [
   "#96ffee",
   "#96bbff",
   "#be96ff",
-  "#ef96ff",
-  "#ff96d2",
   "#ff9696",
-  "#ffd596",
+  "#8d8885",
+  "#8b9dc3",
+  "#a0c0e0",
+  "#ffd571",
+  "#085838",
+  "#ffcd94",
+  "#baffc9",
+  "#ff6f69",
+  "#4deeea",
+  "#ffe700",
+  "#43e8d8",
+  "#b0bf1a"
 ];
 
 export const mutations = {
@@ -64,12 +73,12 @@ export default {
         {
           color: "#eeff96",
           id: 1,
-          name: "LNAME",
+          name: "LNAME-1",
         },
         {
           color: "#bdff96",
           id: 2,
-          name: "FNAME",
+          name: "FNAME-1",
         },
         {
           color: "#96ffee",
@@ -79,25 +88,25 @@ export default {
         {
           color: "#96bbff",
           id: 4,
-          name: "BIRTHPLACE",
+          name: "BIRTHPLACE-1",
         },
         {
           color: "#be96ff",
           id: 5,
-          name: "GENDER",
+          name: "GENDER-1",
         },
         {
           color: "#ff9696",
           id: 6,
-          name: "BIRTHDATE",
+          name: "BIRTHDATE-1",
         },
         {
           color: "#8d8885",
           id: 7,
-          name: "NATIONALITY",
+          name: "NATIONALITY-1",
         },
         {
-          color: "#52284b",
+          color: "#8b9dc3",
           id: 8,
           name: "PLACEOFISSUE",
         },
@@ -117,8 +126,38 @@ export default {
           name: "DATEOFEXPIRY",
         },
         {
-          color: "#b0bf1a",
+          color: "#ffcd94",
+          id: 12,
+          name: "LNAME-2",
+        },
+        {
+          color: "#baffc9",
           id: 13,
+          name: "FNAME-2",
+        },
+        {
+          color: "#ff6f69",
+          id: 14,
+          name: "BIRTHPLACE-2",
+        },
+        {
+          color: "#4deeea",
+          id: 15,
+          name: "GENDER-2",
+        },
+        {
+          color: "#ffe700",
+          id: 16,
+          name: "BIRTHDATE-2",
+        },
+        {
+          color: "#43e8d8",
+          id: 17,
+          name: "NATIONALITY-2",
+        },
+        {
+          color: "#b0bf1a",
+          id: 18,
           name: "MRZ",
         },
       ],
