@@ -73,92 +73,47 @@ export default {
         {
           color: "#eeff96",
           id: 1,
-          name: "LNAME-1",
+          name: "SURNAME",
         },
         {
           color: "#bdff96",
           id: 2,
-          name: "FNAME-1",
+          name: "FIRSTNAME",
         },
         {
           color: "#96ffee",
           id: 3,
-          name: "MNAME",
+          name: "MIDDLENAME",
         },
         {
           color: "#96bbff",
           id: 4,
-          name: "BIRTHPLACE-1",
+          name: "DATEOFBIRTH",
         },
         {
           color: "#be96ff",
           id: 5,
-          name: "GENDER-1",
+          name: "DATEOFISSUE",
         },
         {
           color: "#ff9696",
           id: 6,
-          name: "BIRTHDATE-1",
+          name: "DATEOFEXPIRY",
         },
         {
           color: "#8d8885",
           id: 7,
-          name: "NATIONALITY-1",
+          name: "GENDER",
         },
         {
           color: "#8b9dc3",
           id: 8,
-          name: "PLACEOFISSUE",
+          name: "CITIZENSHIP",
         },
         {
           color: "#a0c0e0",
           id: 9,
-          name: "PASSPORTNUMBER",
-        },
-        {
-          color: "#ffd571",
-          id: 10,
-          name: "DATEOFISSUE",
-        },
-        {
-          color: "#085838",
-          id: 11,
-          name: "DATEOFEXPIRY",
-        },
-        {
-          color: "#ffcd94",
-          id: 12,
-          name: "LNAME-2",
-        },
-        {
-          color: "#baffc9",
-          id: 13,
-          name: "FNAME-2",
-        },
-        {
-          color: "#ff6f69",
-          id: 14,
-          name: "BIRTHPLACE-2",
-        },
-        {
-          color: "#4deeea",
-          id: 15,
-          name: "GENDER-2",
-        },
-        {
-          color: "#ffe700",
-          id: 16,
-          name: "BIRTHDATE-2",
-        },
-        {
-          color: "#43e8d8",
-          id: 17,
-          name: "NATIONALITY-2",
-        },
-        {
-          color: "#b0bf1a",
-          id: 18,
-          name: "MRZ",
+          name: "CARDNUMBER",
         },
       ],
       inputSentences: [],
@@ -166,7 +121,7 @@ export default {
       currentClass: {
         color: "#eeff96",
         id: 1,
-        name: "LNAME"
+        name: "SURNAME"
       },
     };
   },
