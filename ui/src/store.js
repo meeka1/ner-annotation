@@ -71,60 +71,35 @@ export default {
       separator: "########",
       classes: [
         {
-          color: "#eeff96",
-          id: 1,
-          name: "SURNAME",
-        },
-        {
-          color: "#bdff96",
-          id: 2,
-          name: "FIRSTNAME",
-        },
-        {
-          color: "#96ffee",
-          id: 3,
-          name: "MIDDLENAME",
-        },
-        {
-          color: "#96bbff",
-          id: 4,
-          name: "DATEOFBIRTH",
-        },
-        {
-          color: "#be96ff",
-          id: 5,
-          name: "DATEOFISSUE",
-        },
-        {
-          color: "#ff9696",
-          id: 6,
-          name: "DATEOFEXPIRY",
-        },
-        {
-          color: "#8d8885",
-          id: 7,
-          name: "GENDER",
-        },
-        {
-          color: "#8b9dc3",
-          id: 8,
-          name: "CITIZENSHIP",
-        },
-        {
-          color: "#a0c0e0",
-          id: 9,
-          name: "CARDNUMBER",
-        },
-      ],
-      inputSentences: [],
-      annotations: [],
-      currentClass: {
-        color: "#eeff96",
-        id: 1,
-        name: "SURNAME"
-      },
-    };
-  },
+           color: "#eeff96",
+           id: 1,
+           name: "PIN",
+         },
+         {
+           color: "#bdff96",
+           id: 2,
+           name: "PLACEOFBIRTH",
+         },
+         {
+           color: "#96ffee",
+           id: 3,
+           name: "PLACEOFISSUE",
+         },
+         {
+           color: "#96bbff",
+           id: 4,
+           name: "MRZ",
+         },
+       ],
+       inputSentences: [],
+       annotations: [],
+       currentClass: {
+         color: "#eeff96",
+         id: 1,
+         name: "PIN"
+       },
+     };
+   },
   getters,
   mutations,
   actions: {},
